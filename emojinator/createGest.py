@@ -27,6 +27,7 @@ Y_train=Y_train.T
 Y_test=Y[12000:13201,:]
 Y_test=Y_test.T
 
+//prints the shape segments
 print(X_train.shape[0])
 print(X_test.shape[0])
 print(X_train.shape)
